@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+/*    padding: 0;
+    box-sizing: border-box;*/
+}
+
+.contenedor-general{
+    width: 90%;
+    margin:auto;
+}
+
+.cabecero{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;    
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 6vh;
+    align-items: center;
+}
+
+.divlogo{
+    display: flex;
+    align-items: center;
+}
+
+.logoempresa{
+    width: 15%;
+}
+
+nav{  
+  margin-right: 30px;  
+  font-size: 20px;
+}
+
+.link{
+    padding: 10px;
+    
+}
+
+.link:hover{
+    background: yellow;
+    cursor: pointer;
+}
+/*OPCIONES*/
+.opciones{
+    border : 1px solid;
+    display: flex;
+}
+
+
+.opcionesGenero{
+    border-right: 1px solid;
+    width: 50%;
+    margin-left: 10px;
+}
+.opcionesColor{
+    margin-left: 10px;
+    width: 50%;
+}
+
+h4{
+    margin: 8px;
+}
+
+.frasesydiseno{
+    height: 400px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.frases{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+
+.diseno{
+    border: 1px solid;
+    height: 100%;
+    width: 50%;    
+}
+
+.imagen-camiseta{
+    width: 100%;
+    height: 100%;
+}
